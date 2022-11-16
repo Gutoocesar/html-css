@@ -1,0 +1,48 @@
+
+@charset "UTF-8";
+
+body{
+    background-color: blue;
+       
+}
+
+h1{
+    text-align: center;
+    color: white
+}
+
+
+h1:hover{
+    color:black
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.container-item{
+    display: inline-block;
+    background-color: grey;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+
+.container :hover{
+    background-color: black;
+        
+
+}
+
+.container-item:hover{
+       color: white;
+       transition: 0.4s;
+    }
+
