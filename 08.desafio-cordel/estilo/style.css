@@ -36,6 +36,13 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
 section.normal {
     background-color: #ffffff;
     color: #000000;
