@@ -53,6 +53,11 @@ section.imagem {
     color: #ffffff;
 }
 
+section.imagem > p {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.253)
+}
+
 footer {
     background-color: #000000;
     text-align: center;
