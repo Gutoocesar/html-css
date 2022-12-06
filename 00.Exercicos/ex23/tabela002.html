@@ -4,32 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Tabelas Grandes</title>
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;            
+            font-family: Arial, Helvetica, sans-serif;
         }
+        
         table {
-            width: 400px;
-            height: 400px;
-            border-collapse: collapse;
+            width: 500px;
         }
 
-        td {
-            border: 1px solid #000000;
-            padding: 8px;
-            text-align: center; /* Alinhamento horizontal */
-            vertical-align: bottom; /* Alinhamento vertical */           
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
         }
 
-        .numero {
-            text-align: right;
-        }
+        thead {
+            background-color: gray;
+            color: #ffffff;
 
+        }
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
+    <h1>Criando Tabelas Grandes</h1>
     
         <!-- 
             ANATOMIA PARA TABELAS GRANDES
@@ -43,26 +41,22 @@
                     TR, TD, TH
          -->
     <table>
-        <tr class= "linha"> <!-- Primeira linha  -->
-            <td>A1</td>
-            <td class="dado">B1</td>
-            <td class="dado">C1</td>
-        </tr>
-        <tr class="linha"> <!-- Segunda linha  -->
-            <td>A2</td>
-            <td>B2</td>
-            <td class="numero">C2</td>
-        </tr>
-        <tr class="linha"> <!-- Terceira linha  -->
-            <td>A3</td>
-            <td>B3</td>
-            <td class="numero">C3</td>
-        </tr>
-        <tr class="linha"> <!-- Quarta linha  -->
-            <td>A4</td>
-            <td>B4</td>
-            <td>C4</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+        
     </table>    
     
 </body>
